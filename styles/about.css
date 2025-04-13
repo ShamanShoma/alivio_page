@@ -1,0 +1,93 @@
+.about {
+  padding: 170px 0 56px;
+  background-color: var(--co-white);
+}
+
+.about__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__title {
+  max-width: 540px;
+  color: var(--co-light-green);
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 157%;
+  position: relative;
+}
+
+.about__title::before {
+  content: "How it works";
+  position: absolute;
+  color: var(--co-light-black-2);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 157%;
+  top: -30px;
+  left: 0;
+}
+
+.about__desc {
+  max-width: 671px;
+  color: var(--co-light-black-2);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.about__card {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about__card .card:nth-child(2) {
+  margin-top: 250px;
+}
+
+@media (max-width: 1250px) {
+  .about__content {
+    flex-direction: column;
+    justify-content: start;
+    row-gap: 20px;
+  }
+
+  .about__title {
+    max-width: 540px;
+    color: var(--co-light-green);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 110%;
+  }
+}
+
+@media (max-width: 1230px) {
+  .about__card {
+    align-items: center;
+    flex-direction: column;
+  }
+  .about__card .card:nth-child(2) {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .about__content {
+    padding: 0 15px;
+  }
+
+  .about__title {
+    font-size: 35px;
+    line-height: 110%;
+  }
+
+  .about__desc {
+    font-size: 16px;
+    line-height: 130%;
+  }
+}
