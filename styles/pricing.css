@@ -1,0 +1,31 @@
+.pricing {
+  background-color: var(--co-dark-green);
+  padding: 95px 0 144px;
+}
+
+.pricing__content {
+  color: var(--co-white);
+  padding-left: 30px;
+}
+
+.pricing__title {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 67px;
+}
+
+.prising__nav-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 60px;
+}
+
+.prising__nav-link {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.prising__nav-link:hover {
+  color: var(--co-normal-black);
+}
