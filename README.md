@@ -1,5 +1,7 @@
 # ALIVIO LANDING
 
 ```
-Everyone experiences stress in different ways. Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+Everyone experiences stress in different ways.
+Let Alivio guide you, in a personalized journal experience, to overcome your stress.
 ```
+shamanshoma.github.io/alivio_page
